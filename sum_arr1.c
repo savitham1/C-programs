@@ -1,4 +1,5 @@
 /*sum_arr1.c -- sums the elements of an array */
+/* Note: Function definition */
 
 #include <stdio.h>
 #define SIZE 10
