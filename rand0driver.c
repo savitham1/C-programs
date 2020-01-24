@@ -1,12 +1,6 @@
 /* Random number generator
-
 rand0driver.c -- driver program for rand0.c
-
 run with rand0.c
-
-Savitha Munirajaiah
-23rd January, 2020.
-
 */
 
 #include<stdio.h>
@@ -14,6 +8,7 @@ Savitha Munirajaiah
 
 extern unsigned int rand0();
 extern void srand0(unsigned int);
+extern unsigned long int seed;
 
 int main(void)
 {
@@ -24,11 +19,14 @@ int main(void)
     printf("How many random number would you like? \n");
     scanf("%d", &count);
 
+    printf("Kindly choose a seed value:\n");
+    scanf("%ld", &seed);
+
     for(int i = 1; i <= count; i++)
     {
         num = rand0();
         srand0(num);
-        printf("%d: %d\n", i, num);
+        printf("\n%d: %d", i, num);
     }
 
     return 0;
