@@ -3,10 +3,6 @@
 rand0driver.c -- driver program for rand0.c
 
 run with rand0.c
-
-Savitha Munirajaiah
-23rd January, 2020.
-
 */
 
 #include<stdio.h>
