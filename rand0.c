@@ -14,7 +14,7 @@ Savitha Munirajaiah
 #include<stdio.h>
 
 unsigned long int seed;
-extern void srand(unsigned int prev);
+extern void srand0(unsigned int prev);
 
 unsigned int rand0()
 {
