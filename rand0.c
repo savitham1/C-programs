@@ -5,10 +5,6 @@ seed is initialized to '1' but can be assigned to system time
 for better outputs
 
 run with rand0driver.c
-
-Savitha Munirajaiah
-23rd January, 2020.
-
 */
 
 #include<stdio.h>
