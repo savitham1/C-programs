@@ -1,3 +1,4 @@
+// FILES
 // Program counts the number of characters present in a file
 // Command line argument: provide source file name
 //count.c
