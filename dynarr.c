@@ -11,9 +11,11 @@ int main(void)
 
     printf("Enter the maximum number of double entried:");
 
+    // Checks for non integer and 0 values.
+
     while((scanf("%d", &max) != 1) || max == 0)
     {
-        printf("The number was not entered correctly");
+        printf("The number was not entered correctly\n");
         exit(EXIT_FAILURE);
     }
 
